@@ -8,7 +8,7 @@ function addBtnActionDokudrawingboard($btn, props, edid) {
 
         
         // your click handler
-        window.open("./doku.php?do=my_action");
+        window.open("./doku.php?do=dokudrawingboard");
        
 
             return false;

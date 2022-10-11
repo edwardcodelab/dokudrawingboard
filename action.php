@@ -44,12 +44,12 @@ class action_plugin_dokudrawingboard extends \dokuwiki\Extension\ActionPlugin
 
     }
      public function allowMyAction(Doku_Event $event, $param) {
-        if($event->data != 'my_action') return; 
+        if($event->data != 'dokudrawingboard') return; 
         $event->preventDefault();
     }
  
     public function performMyAction(Doku_Event $event, $param) {
-       if($event->data != 'my_action') return; 
+       if($event->data != 'dokudrawingboard') return; 
        $event->preventDefault();
        
         // width =100% height = "1000 px" 
