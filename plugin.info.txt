@@ -1,7 +1,7 @@
 base   dokudrawingboard
 author dodotori @dokuwiki forum
 email  dodotori@localhost
-date   2022-10-10
+date   2022-10-25
 name   dokudrawingboard plugin
 desc   to create a a drawingboard by using drawingboard.js library
 url    https://github.com/edwardcodelab/dokudrawingboard
